@@ -490,6 +490,10 @@ span {
 }
 
 @media only screen and (max-width:768px) {
+
+    .customize{
+       margin-left: 83%;
+    }
     .hero {
         display: flex;
         flex-wrap: wrap;
@@ -499,6 +503,7 @@ span {
     .hero-left {
         height: auto;
         flex: 50%;
+        padding: 70px;
     }
 
     .hero-left h1 {
@@ -551,7 +556,8 @@ span {
     }
 
     .video {
-        flex: 100%;
+        /* flex: 100%; */
+        width: auto;
     }
 
     /* .sec5{
@@ -598,6 +604,11 @@ span {
 /* moile view  */
 
 @media only screen and (max-width:480px) {
+
+
+    .customize{
+        margin-left: 72%;
+     }
     .hero {
         /* flex-direction: column; */
         flex-wrap: wrap;
