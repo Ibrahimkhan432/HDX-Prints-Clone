@@ -25,7 +25,11 @@
 .red {
     color: red !important;
 }
-
+.red2 span{
+    color: red !important;
+    font-size: 15px;
+    font-weight: 700;
+}
 .hero {
     /* border: 2px solid black; */
     width: 1000px;
@@ -150,13 +154,13 @@
 
 .div8 {
     text-align: center;
-    font-weight: 800;
 }
+.div8 h1{
+    font-size: 15px;
+    font-weight: 700;
 
+}
 .div8 img {
-    /* background-image: url(plus-icon-img.png); */
-    /* background-size: cover; */
-    /* margin: 60px; */
     margin: 100px 100px 10px 100px;
 }
 
